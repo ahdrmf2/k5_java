@@ -28,13 +28,14 @@ public static void main(String[] args) {
 		}
 		System.out.println("\n");}
 	
-	
+//		  j
 //		1  2  3  4  5
 //		6  7  8  9  10
 //		11 12 13 14 15
 //		16 17 18 19 20
 //		21 22 23 24 25
 //		대각선 1, 7, 13, 19, 25 의 합		
+//    i
 	
 //	1 = (0.0) 7 = (1,1) 13 = (2,2) 19 = (3,3), 25 = (4,4)
 	
@@ -52,6 +53,13 @@ for(int i = 0; i < arr.length && i < arr[0].length; i++)  //for문은 항상 참
 	
 	//배열의 대각 합을 출력
 	System.out.println("합 :" + sum);
+	
+	
+	
+	
+	
+	
+	
 	
 	}
 }

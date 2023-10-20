@@ -1,6 +1,6 @@
-package Chap3;
+package Chap3제어문;
 
-public class Test21{
+public class Chap3제어문 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
