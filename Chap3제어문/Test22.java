@@ -39,5 +39,13 @@ public static void main(String[] args) {
 	default:
 			System.out.println("부적합 연산자");
 	}*/
+int c = 10;
+private void sysout(++c) {
+	// TODO Auto-generated method stub
+
 }
+
+
+
+
 
