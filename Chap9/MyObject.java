@@ -1,4 +1,4 @@
-package com.ruby.java.ch09;
+package Chap9;
 
 public class MyObject extends Object {
 	@Override		//주석을 메모 보내는??

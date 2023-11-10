@@ -1,4 +1,4 @@
-package com.ruby.java.ch09;
+package Chap9;
 
 public class Test12 {
 
