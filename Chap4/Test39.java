@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package Chap4배열;
 
 public class Test39 {
@@ -63,11 +63,8 @@ for(int i = 0; i < arr.length && i < arr[0].length; i++)  //for문은 항상 참
 	
 	
 	}
-}
-=======
-package Chap4;
 
-public class Test39 {
+
 public static void main(String[] args) {
 	
 	
@@ -122,12 +119,7 @@ for(int i = 0; i < arr.length && i < arr[0].length; i++)  //for문은 항상 참
 	System.out.println("합 :" + sum);
 	
 	
-	
-	
-	
-	
-	
-	
-	}
 }
->>>>>>> 88d6f3482683f653a876a4cb1ce193fc32b3fab9
+
+	
+}
