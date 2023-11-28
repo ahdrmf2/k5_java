@@ -1,4 +1,4 @@
-package Chap4_스택과큐;
+package dataChap3.chap04;
 //선형 큐 구현
 import java.util.Scanner;
 

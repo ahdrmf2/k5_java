@@ -1,5 +1,4 @@
-
-package Chap3_검색;
+package dataChap3.chap03;
 
 //3장 객체 배열 정렬 - binary search
 /*

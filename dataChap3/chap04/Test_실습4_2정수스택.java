@@ -1,4 +1,4 @@
-package Chap4_스택과큐;
+package dataChap3.chap04;
 
 		//stack 스택은 더미라는 뜻
 		//라스트인퍼스트아웃 LIFO
