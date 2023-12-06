@@ -1,4 +1,4 @@
-package dataChap3.chap03;
+package 자료구조chap4_스택.chap03;
 
 //3장 객체 배열 정렬 - binary search
 /*
@@ -17,8 +17,8 @@ class Fruit3 {
 	String expire;
 
 	public Fruit3(String name, int price, String expire) {
-		this.name = name;
-		this.price = price;
+		this.name = name;				//this는 인스턴스 변수(현재 객체)를 가리키는 참조.
+		this.price = price;				//인스턴스 변수(현제 객체)와 지역 변수 이름 같을때 안헷갈리게 변수를 지정한것.
 		this.expire = expire;
 	}
     @Override

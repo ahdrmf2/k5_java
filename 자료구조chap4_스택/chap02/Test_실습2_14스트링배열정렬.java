@@ -1,4 +1,4 @@
-package dataChap3.chap02;
+package 자료구조chap4_스택.chap02;
 
 public class Test_실습2_14스트링배열정렬 {
 	public static void main(String[] args) {

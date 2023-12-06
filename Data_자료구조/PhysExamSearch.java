@@ -1,4 +1,5 @@
 // 신체검사 데이터 배열에서 이진 검색
+package Data_자료구조;
 
 import java.util.Arrays;
 import java.util.Scanner;

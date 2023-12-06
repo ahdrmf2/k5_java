@@ -1,4 +1,4 @@
-package dataChap3.chap04;
+package 자료구조chap4_스택.chap04;
 //선형 큐 구현
 import java.util.Scanner;
 
@@ -32,10 +32,16 @@ class Queue4 {
 
 //--- 생성자(constructor) ---//
 public Queue4(int maxlen) {
-
+	num = 0;					//인덱스 0인 요소이며 스택의 바닥. 가장 먼저 저장되는 곳이니 0
+	capacity = maxlen;			//스택의 크기를 아는 capacity
+	try {						
+		que = new ArrayList<Integer>(); //que 스택의 배열을 알기 위해 new ArrayList를 만들기.
+	}	catch (OutOfMemoryError e) {
+		capacity = 0;			//크기는 0
+	}
 }
 
-//--- 큐에 데이터를 인큐 ---//
+//---111 큐에 데이터를 인큐 ---//
 	public int enque(int x) throws OverflowQueueException {
 
 	}

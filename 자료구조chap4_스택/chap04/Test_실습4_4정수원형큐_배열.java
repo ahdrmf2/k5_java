@@ -1,4 +1,4 @@
-package dataChap3.chap04;
+package 자료구조chap4_스택.chap04;
 
 import java.util.Random;
 /*

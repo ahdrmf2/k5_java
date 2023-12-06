@@ -1,4 +1,4 @@
-package dataChap3.chap04;
+package 자료구조chap4_스택.chap04;
 //List를 사용한 선형 큐 구현  - 큐는 배열 사용한다 
 import java.util.Random;
 import java.util.Scanner;
@@ -6,6 +6,19 @@ import java.util.Scanner;
 /*
  * Queue of ArrayList of Point
  */
+
+
+//큐란 선입선출	데이터 넣는거 인큐 데이터 꺼내는거 디큐 
+			//데이터 나오는 쪽 프런트(front, 맨앞) 데이터 넣는 쪽 리어(rear, 맨 뒤)
+
+	public class IntArrayQueue{
+		private int[] que;		//큐용 배열
+		private int capacity;	//큐 용량
+		private int front;		//맨 앞의 요소 커서
+		private int rear;		//맨 뒤의 요소 커서
+		private int num;		//현재 데이터 개
+	}
+	
 
 class Point3 {
 	private int ix;
@@ -46,7 +59,7 @@ class Point3 {
 
 //int형 고정 길이 큐
 class objectQueue2 {
-    private Point3[] que;
+    private int[] que;
 	private int capacity; // 큐의 크기
 	private int front; // 맨 처음 요소 커서
 	private int rear; // 맨 끝 요소 커서
@@ -64,9 +77,15 @@ class objectQueue2 {
 		}
 	}
 
-//--- 생성자(constructor) ---//
-public objectQueue2(int maxlen) {
-
+//--- 생성자(constructor) ---//				//capacity는 큐의 최대 용량이다
+public objectQueue2(int maxlen) {		
+	num = front = rear = 0;			//생성시 큐는 비어 있기에 num, front, rear 값 모두 0 이다.
+	capacity = maxlen;				//매개변수 maxlen로 전달받은 큐의 용량을 필드 capacity에 복사하고, 요솟수 capacity인 배열 큐의 본체 생성
+	try {
+		que = new int[capacity];		//큐 본체용 배열 생성
+	}	catch (OutOfMemoryError e) {	//생성할 수 없음
+		capacity = 0;				//큐가 가득차서 인큐못하면 OutOf~ 내보낸다
+	}
 }
 
 //--- 큐에 데이터를 인큐 ---//

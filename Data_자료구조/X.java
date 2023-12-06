@@ -1,4 +1,5 @@
 // 클래스 X의 내부에서 COMPARATOR를 정의하는 방법(예)
+package Data_자료구조;
 
 import java.util.Comparator;
 

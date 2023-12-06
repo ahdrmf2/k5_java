@@ -1,4 +1,5 @@
 // int형 고정 길이 큐
+package Data_자료구조;
 
 public class IntQueue {
     private int[] que;            // 큐용 배열

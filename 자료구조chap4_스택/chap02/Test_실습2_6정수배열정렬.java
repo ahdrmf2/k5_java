@@ -1,4 +1,4 @@
-package dataChap3.chap02;
+package 자료구조chap4_스택.chap02;
 
 //교재 60 - 실습 2-6
 //2번 실습
